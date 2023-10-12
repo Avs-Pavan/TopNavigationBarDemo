@@ -37,16 +37,19 @@ class CustomLabLayout : AppCompatActivity() {
             // attach tabLayout to viewPager2
             TabLayoutMediator(tabLayout, viewPager2) { tab, position ->
 
+                // inflate tabItemBinding to tabLayout for custom tab
                 val tabBinding = TabItemBinding.inflate(layoutInflater, tabLayout, false)
                 tab.customView = tabBinding.root
 
                 when (position) {
                     0 -> {
+                        // set text and icon for tab
                         tabBinding.tabText.text = "Home"
                         tabBinding.tabIcon.setImageResource(R.drawable.baseline_home_24)
                     }
 
                     1 -> {
+                        // set text and icon for tab
                         tabBinding.tabText.text = "Settings"
                         tabBinding.tabIcon.setImageResource(R.drawable.baseline_settings_24)
                     }
