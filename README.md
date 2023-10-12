@@ -3,7 +3,7 @@ The TabbedAppDemo is a dynamic Android application that showcases the seamless i
 
 Key Features:
 
-TabLayout: This enables a horizontal layout of tabs, with each tab corresponding to a unique fragment view.
-ViewPager2: Facilitates horizontal swiping between fragment views associated with each tab.
-Fragments: Each tab's content is represented as a separate fragment, allowing modular design and isolated logic for each section of the app.
-Custom Tab Icons: Each tab showcases a custom-designed icon accompanied by a descriptive text label, enhancing the application's user experience.
+* TabLayout: This enables a horizontal layout of tabs, with each tab corresponding to a unique fragment view.
+* ViewPager2: Facilitates horizontal swiping between fragment views associated with each tab.
+* Fragments: Each tab's content is represented as a separate fragment, allowing modular design and isolated logic for each section of the app.
+* Custom Tab Icons: Each tab showcases a custom-designed icon accompanied by a descriptive text label, enhancing the application's user experience.
